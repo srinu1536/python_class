@@ -1,0 +1,29 @@
+sno=int(input("enter student roll number:"))
+name=input("enter student name")
+group=input("enter student group")
+print("enter student marks of each subject:")
+s1=int(input("telugu:"))
+s2=int(input("english:"))
+s3=int(input("maths:"))
+s4=int(input("statistics:"))
+s5=int(input("dbms:"))
+s6=int(input("analytical skills:"))
+total=s1+s2+s3+s4+s5+s6
+print(total)
+avg=total/3
+print(avg)
+if(avg<31):
+    print("Fail")
+elif(avg>91):
+    print("O grade")
+elif(avg>81):
+    print("A grade")
+elif(avg>71):
+    print("B grade")
+elif(avg>61):
+    print("C grade")
+elif(avg>51):
+    print("D grade")
+elif(avg>41):
+    print("pass")
+    
